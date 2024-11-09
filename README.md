@@ -15,6 +15,11 @@ attempts to send the message to the actual SMS provider through the gateway, mad
 It has a filter feature to filter by phone number on behalf of which other application was made an attemot to send its message.
 It has a button to remove listed notifications from the table.
 
+## Demo Video
+Check out demo videos:
+[here](./assets/videos/SmsRateGatekeeperUi - filtering and cleaning.mp4). 
+![Demo Video](./assets/videos/SmsRateGatekeeperUi - filtering and cleaning.mp4)
+
 ## ==========================
 ## Development server
 
