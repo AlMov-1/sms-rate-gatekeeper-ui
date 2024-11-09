@@ -16,8 +16,8 @@ It has a filter feature to filter by phone number on behalf of which other appli
 It has a button to remove listed notifications from the table.
 
 ## Demo Video
-Check out demo videos:
-[![Watch the video](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)
+Download and watch videos:
+[![filtering and cleaning](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)
 
 ## ==========================
 ## Development server
