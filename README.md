@@ -20,7 +20,7 @@ Download and watch videos:
 
 [![filtering and cleaning](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)
 
-[![Watch the video](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20threshold%20is%20reached.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20threshold%20is%20reached.mp4)
+[![threshold is reached](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20threshold%20is%20reached.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20threshold%20is%20reached.mp4)
 
 ## ==========================
 ## Development server
