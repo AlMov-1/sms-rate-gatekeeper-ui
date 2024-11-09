@@ -15,7 +15,7 @@ attempts to send the message to the actual SMS provider through the gateway, mad
 It has a filter feature to filter by phone number on behalf of which other application was made an attemot to send its message.
 It has a button to remove listed notifications from the table.
 
-## ====================================================
+## ==========================
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
