@@ -17,6 +17,7 @@ It has a button to remove listed notifications from the table.
 
 ## Demo Video
 Download and watch videos:
+
 [![filtering and cleaning](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20filtering%20and%20cleaning.mp4)
 
 ## ==========================
