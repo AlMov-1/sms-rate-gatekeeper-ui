@@ -22,6 +22,15 @@ Checkout the files and watch videos locally on your system.
 
 [![threshold is reached](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20threshold%20is%20reached.mp4)](https://github.com/AlMov-1/sms-rate-gatekeeper-ui/blob/master/assets/videos/SmsRateGatekeeperUi%20-%20threshold%20is%20reached.mp4)
 
+## Setup
+* Chekout both
+  *   https://github.com/AlMov-1/SMSRateGatekeeper
+  *   https://github.com/AlMov-1/sms-rate-gatekeeper-ui
+*   Launch SMSRateGatekeeper
+*   Launch sms-rate-gatekeeper-ui
+*   Start posting message to the SMSRateGatekeeper POST Endpont using SWAGGER or Postman or anything else suitable.
+*   You should see notifications are being listed in the table of the UI page.
+
 ## ==========================
 ## Development server
 
