@@ -17,6 +17,7 @@ export class AppComponent implements OnInit, OnDestroy {
   notifications: GateKeeperResult[] = [];
   filteredNotifications: GateKeeperResult[] = [];
   private resultSubscription: Subscription = new Subscription();
+  private filterValue: string = '';
 
   constructor(private signalRService: SignalRService){}
 
@@ -27,7 +28,7 @@ export class AppComponent implements OnInit, OnDestroy {
           .subscribe({
             next: data => {
               this.notifications.push(data);
-              this.filteredNotifications = this.notifications;
+              this.applyFilter();
             },
             error: err => console.error('Error receiving notification:', err)
           });
@@ -41,11 +42,17 @@ export class AppComponent implements OnInit, OnDestroy {
 
   onFilterStatus(event: Event): void { 
     const inputElement = event.target as HTMLInputElement; 
-    const number = inputElement.value;
-    if(number){
-      this.filteredNotifications = this.notifications.filter(n => 
-        n.number.toString().includes(number));
-    } else{
+    this.filterValue = inputElement.value; 
+    this.applyFilter();
+  }
+
+  applyFilter(): void {
+    if(this.filterValue){
+      this.filteredNotifications = this.notifications
+                                       .filter(n => n.number
+                                                     .toString()
+                                                     .includes(this.filterValue));                                      
+    } else {
       this.filteredNotifications = this.notifications;
     }
   }

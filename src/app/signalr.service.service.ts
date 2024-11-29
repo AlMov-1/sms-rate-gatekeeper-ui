@@ -1,8 +1,8 @@
-// src/app/services/signalr.service.ts
+
 import { Injectable } from '@angular/core';
 import * as signalR from '@microsoft/signalr';
 import { GateKeeperResult } from './models/gatekeeper-result';
-import { BehaviorSubject } from 'rxjs';
+import { Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -16,15 +16,15 @@ export class SignalRService {
                }) 
                .build();
 
-  private defaultResult: GateKeeperResult = {
+/*   private defaultResult: GateKeeperResult = {
       number: '',
       title: '',
       detail: '',
       accountLimitPercentage: 0,
       businessLimitPercentage: undefined
-  };
+  }; */
 
-  private resultsSubject = new BehaviorSubject<GateKeeperResult>(this.defaultResult);
+  private resultsSubject = new Subject<GateKeeperResult>();
   results$ = this.resultsSubject.asObservable();
 
   constructor() {
