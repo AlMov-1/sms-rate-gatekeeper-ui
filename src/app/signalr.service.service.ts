@@ -16,13 +16,6 @@ export class SignalRService {
                }) 
                .build();
 
-/*   private defaultResult: GateKeeperResult = {
-      number: '',
-      title: '',
-      detail: '',
-      accountLimitPercentage: 0,
-      businessLimitPercentage: undefined
-  }; */
 
   private resultsSubject = new Subject<GateKeeperResult>();
   results$ = this.resultsSubject.asObservable();
@@ -40,7 +33,6 @@ export class SignalRService {
 
   private addReceiveNotificationListener() {
     this.hubConnection.on('ReceiveNotification', (data: GateKeeperResult) => {
-      //const currentResults = this.resultsSubject.value;
       this.resultsSubject.next(data);
     });
   }
